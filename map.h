@@ -6,7 +6,7 @@ class Map {
 private:
 	sf::Texture texture;
 	sf::Sprite sprite;
-	sf::Vector2f speed{ sf::Vector2f(MAP_SPEED_X, 0.f) };
+	sf::Vector2f speed{ MAP_SPEED_X, 0.f };
 public:
 	Map(float x, float y) {
 		texture.loadFromFile(IMAGES_FOLDER + MAP_NAME);
